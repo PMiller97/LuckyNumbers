@@ -10,6 +10,9 @@ namespace LuckyNumbers
     {
         static void Main(string[] args)
         {
+            //string playAgain = "YES";
+            //while (playAgain == "YES")
+            //{ 
             //int count = 0;
             //Console.WriteLine("Please enter a starting number");
             //int numberStart = int.Parse(Console.ReadLine());
@@ -105,14 +108,17 @@ namespace LuckyNumbers
 
 
             //Console.WriteLine("Do you want to play again? YES/NO");
-            //string playAgain = Console.ReadLine().ToUpper();// not case sensitive
-            //while (playAgain == "NO")
+            //playAgain = Console.ReadLine().ToUpper();// not case sensitive
+            //if (playAgain == ("NO"))
             //{
-            //    Console.WriteLine("Thanks for playing!"); //thanks for playing runs a million times... why?
+            //    Console.WriteLine("Thanks for playing!"); //exits program
             //}
-            //while (playAgain == "YES") ; //should restart program... doesn't
+            //else  //restarts program
+            //        {
+            //    Console.WriteLine("Alright, let's go!");
+            //}
 
-
+            //}
 
 
 
